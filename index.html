@@ -11,12 +11,34 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i,700,700i&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/style-page1.css">
-
-
-
-
+    <link rel="stylesheet" href="./assets/css/style-login.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <script src="./assets/js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="./assets/js/login.js"></script>    
 </head>
 <body>
+    <!--Go to top-->
+    <div><a id="gototop" href="#" ><i class="fa-solid fa-arrow-up"></i></a></div>
+    <!--Dang nhap-->
+    <div id="wrapper"> 33333333333333333322222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+        <form action="" id="form-login">
+            <h1 class="form-heading">Đăng nhập</h1>
+            <div class="form-group">
+                <i class="far fa-user"></i>
+                <input type="text" class="form-input" placeholder="Tên đăng nhập">
+            </div>
+            <div class="form-group">
+                <i class="fas fa-key"></i>
+                <input type="password" class="form-input" placeholder="Mật khẩu">
+                <div id="eye">
+                    <i class="far fa-eye"></i>
+                </div>
+            </div>
+            <input id="form-btt-dangnhap" type="submit" value="Đăng nhập" class="form-submit">
+        </form>
+    </div>
  <!-- Header -->
  <header id="myHeader">
     <div class="container-header">        
@@ -31,14 +53,14 @@
                         <input type="button" value="Tìm kiếm" class="button-search">
                     </div>
                     <div class="login-sign-up flex">
-                       <a href="#"> Login</a>
+                       <a id="Login" href="#"> Login</a>
                        <a href="#">Sign up</a>
                     </div>
                 </div>
                 <div id="mobile-menu" class="menu-small">
                     <i class="fa-solid fa-bars"></i>
                 </div>
-                <ul class="menu-header flex">
+                <ul class="menu-header flex" id="menu">
                     <li class="line active"><a href="#">Trang chủ</a></li>
                     <li class="line"><a href="#">Vũ trụ</a></li>
                     <li class="line"><a href="">Sức khỏe</a></li>
@@ -178,6 +200,7 @@
         </div>
     </div>
  </section>
+ <!--GetNews-->
  <section class="getNews">
     <div class="container-getNews">
         <h2 class="inner-title">Nhận bản tin Khoa học và Cuộc sống</h2>   
