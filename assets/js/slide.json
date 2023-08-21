@@ -1,0 +1,26 @@
+[
+    {
+        "slide-left-top" : 
+            {
+                "image" : "./assets/img/img-slide-1.jpg",
+                "title" : "Công nghệ đang phá vỡ các rào cản về khả năng tiếp cận trong giao thông vận tải — đây là cách"      
+            },
+        "slide-left-bot" :{
+            "image" : "./assets/img/img-slide-2.jpg",
+            "title" : "Mô hình DeepMind AI mới có thể điều khiển các hành động của rô-bốt mà nó chưa bao giờ được đào tạo để thực hiện"
+        },
+        "slide-right-top-left": {
+            "image":"./assets/img/img-slide-3.jpg",
+            "title":"Người tiên phong trong thế giới ảo nhắm mục tiêu thể thao để hồi sinh giấc mơ metaverse"
+        },
+        "slide-right-top-right": {
+            "image":"./assets/img/img-slide-4.jpg",
+            "title":"VanMoust: Các công ty khởi nghiệp có thể học được gì từ sự thăng trầm của một siêu sao xe đạp điện"
+        },
+        "slide-right-bot": {
+            "image":"./assets/img/img-slide-5.jpg",
+            "title":"Các công ty khởi nghiệp châu Âu: Tôi nghĩ chúng ta sẽ cần một loại pin tốt hơn"
+        }
+        
+    }
+]
