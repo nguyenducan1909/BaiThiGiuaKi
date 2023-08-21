@@ -280,6 +280,9 @@ ul#menu{
     font-weight: bold;
     
 }
+.sectionOne .inner-item a{
+    color: #000 !important;
+}
 
 /*button*/
 .button {
